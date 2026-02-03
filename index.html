@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RupertG Radio - Live Streaming</title>
+    <meta name="description" content="RupertG Radio - Your trusted source for quality entertainment, information, and community connection. Live streaming 24/7.">
+    <meta name="keywords" content="radio, music, news, business, live stream, RupertG Radio">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">RG</div>
+                <h1>RupertG Radio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#player">Listen</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Your Sound, Your Story</h2>
+            <p>Experience premium radio broadcasting with curated music, insightful news, and expert business analysis. Broadcasting quality content 24/7.</p>
+            <a href="#player" class="cta-button">Start Listening</a>
+        </div>
+    </section>
+
+    <!-- Player Section -->
+    <section id="player" class="player-section">
+        <div class="player-container">
+            <h2 class="player-title">Live Stream</h2>
+            <p>Click play to start listening to RupertG Radio</p>
+            
+            <!-- Stream Player -->
+            <div class="stream-enhancement">
+                <div data-type="newStreamPlayer" data-publicToken="d4c5a489-cec6-4eb7-8c1c-8a65b3004951" data-theme="dark" data-color="e81e4d" data-channelId="a0fd5b3b-024f-4448-9120-bd4a95cdae57" data-rendered="false" class="cstrEmbed">
+                    <a href="https://www.caster.fm">Shoutcast Hosting</a> 
+                    <a href="https://www.caster.fm">Stream Hosting</a> 
+                    <a href="https://www.caster.fm">Radio Server Hosting</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number" data-target="1234">0</span>
+                <div class="stat-label">Active Listeners</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">24/7</span>
+                <div class="stat-label">Hours On Air</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="150">0</span>
+                <div class="stat-label">Cities Reached</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="2">0</span>
+                <div class="stat-label">Years Broadcasting</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule-section">
+        <div class="schedule-container">
+            <h2 class="schedule-title">Today's Schedule</h2>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <span class="time-slot">9:00 AM - 12:00 PM</span>
+                    <div class="show-title">Music</div>
+                    <div class="show-host">Hosted by RupertG Radio</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Sections -->
+    <section id="about" section class="content-grid">
+        <div class="content-card card-hover-effect" id="news">
+            <div class="card-icon">📰</div>
+            <h3>News & Current Events</h3>
+            <p>Comprehensive news coverage from local to global perspectives. Stay informed with reliable, timely reporting that matters to your community and the world.</p>
+        </div>
+        
+        <div class="content-card card-hover-effect" id="business">
+            <div class="card-icon">💼</div>
+            <h3>Business Insights</h3>
+            <p>Expert analysis of market trends, entrepreneurship, and economic developments. Essential listening for business professionals and investors.</p>
+        </div>
+        
+        <div class="content-card card-hover-effect" id="music">
+            <div class="card-icon">🎵</div>
+            <h3>Curated Music</h3>
+            <p>Discover exceptional music across genres. From timeless classics to emerging artists, our carefully selected playlists deliver the perfect soundtrack.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About RupertG Radio</h4>
+                <p>Since 2014, RupertG Radio has been committed to delivering premium content that informs, entertains, and connects communities. Our dedication to quality broadcasting sets us apart.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Information</h4>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:contact@rupertg.co.uk">contact@rupertg.co.uk</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <p>Join our community and stay updated with the latest from RupertG Radio.</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; <span id="current-year">2026</span> RupertG Radio. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Stream Player Script -->
+    <script src="//cdn.cloud.caster.fm//widgets/embed.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
